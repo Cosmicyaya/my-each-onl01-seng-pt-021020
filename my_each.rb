@@ -4,3 +4,4 @@ def my_each(collection)
     yield(num)
     puts "1","2","3","4"
   end
+end
