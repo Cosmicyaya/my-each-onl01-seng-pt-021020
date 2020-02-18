@@ -1,5 +1,6 @@
 def my_each(collection)
   collection = [1, 2, 3, 4]
   while my_each(collection) do |i|
-    puts i
-end
+    yield(num)
+    puts "1","2","3","4"
+  end
